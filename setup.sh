@@ -517,7 +517,7 @@ lightcyan
 EOF
 function Pasang(){
 cd
-wget https://raw.githubusercontent.com/KyoStore/scku/tools.sh &> /dev/null
+wget https://raw.githubusercontent.com/KyoStore/scku/main/tools.sh &> /dev/null
 chmod +x tools.sh 
 bash tools.sh
 clear
@@ -572,42 +572,42 @@ fun_bar() {
 
 
 res2() {
-wget https://raw.githubusercontent.com/KyoStore/scku/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/KyoStore/scku/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
 } 
 
 res3() {
-wget https://raw.githubusercontent.com/KyoStore/scku/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/KyoStore/scku/main/install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 }
 
 res4() {
-wget https://raw.githubusercontent.com/KyoStore/scku/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/KyoStore/scku/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 }
 
 res5() {
-wget https://raw.githubusercontent.com/KyoStore/scku/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/KyoStore/scku/main/install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 }
 
 res6() {
-wget https://raw.githubusercontent.com/KyoStore/scku/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/KyoStore/scku/main/sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 }
 
 res7() {
-wget https://raw.githubusercontent.com/KyoStore/scku/menu/update.sh && chmod +x update.sh && ./update.sh
+wget https://raw.githubusercontent.com/KyoStore/scku/main/menu/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
 
 res8() {
-wget https://raw.githubusercontent.com/KyoStore/scku/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
+wget https://raw.githubusercontent.com/KyoStore/scku/main/slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
 clear
 }
 
 res9() {
-wget https://raw.githubusercontent.com/KyoStore/scku/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
+wget https://raw.githubusercontent.com/KyoStore/scku/main/install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
 clear
 }
 if [[ $(cat /etc/os-release | grep -w ID | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/ID//g') == "ubuntu" ]]; then
